@@ -12,7 +12,7 @@ public class SalaryCalculator {
         } else if (salary > 20000) {
             result = salary - (salary/100)*20;
             System.out.println(result);
-        } else if (salary < 0 || salary <= -1.0) {
+        } else if (salary < 0 || salary == -1.0) {
             System.out.println("wrong input!");
         }
     }
